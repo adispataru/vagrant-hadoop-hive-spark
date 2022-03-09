@@ -79,7 +79,7 @@ docker inspect a44ca8ded5b8 | grep -i ipaddress
 So, in the case above the container's ip address is 172.17.0.2 - you can substitute this address if 'node1' does not work.
 
 # Work out the ip-address of the virtualbox VM
-The ip address of the virtualbox machine should be `10.211.55.101`
+The ip address of the virtualbox machine should be `192.168.56.101`
 
 # Map Reduce - Tez
 By default map reduce jobs will be executed via Tez to change this to standard MR, change the following parameter in $HADOOP_CONF/mapred-site.xml from: -
